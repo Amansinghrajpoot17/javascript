@@ -7,9 +7,14 @@
 // "33"->> 33
 // "33abs"->> NaN
 // "true"->> false
-let ISLoggedIn= 1
-let booleanISLogged=1
 
-let booleanISLoggedIn= Boolean(ISLoggedIn)
+let isloggedin = "aman"
 
-console.log(booleanISLogged);
+let bool = Boolean(isloggedin)
+
+console.log(bool)
+
+// 1>>true
+// 0>>false
+// "">>false
+// "aman">>true
