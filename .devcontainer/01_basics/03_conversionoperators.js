@@ -35,5 +35,13 @@ let value = 3
 //  let str2=" aman"
 //  console.log(str1+str2);
 
-// console.log("1"+2);
-console.log(1+2+"3");
+//  console.log(["1"]+[2]);
+//  console.log([1+2]+"3");
+let x=3
+let y=x++ // retuns value before incrementing
+//let y=++x  //returns value after incrementing
+console.log(x,y)
+ console.log("2"<1)
+ console.log(null>0)
+ console.log(null>=0) //
+ 
