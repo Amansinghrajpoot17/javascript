@@ -9,3 +9,9 @@
   // reference type (non primitive) : call by reference 
 
   // 1. arrays 2. objects 3. functions
+
+  // memory allocations----
+
+// stack (primitive data types)
+ 
+// heap (non- primitive data types)
