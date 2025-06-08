@@ -7,7 +7,12 @@
 // null->> standalone value output- object
 // undefined output-undefined
 // Symbol->> unique
+const bignumber= 2323232346674567898756545598
 let name="aman";
 var age=30;
+let a = ["aman", "asiun", "deeras"]
 console.log(typeof age);
 console.log(typeof null);
+console.log(typeof name);
+console.log(typeof bignumber)
+console.log(typeof a)
