@@ -12,3 +12,14 @@ console.log(num.toPrecision(3))
 
 const hundreds= 1000000
 console.log(hundreds.toLocaleString('en-IN'));
+// +++++++++MATHS+++++++++++//
+console.log(Math.abs(-4)); //abs converts negative value into positive value
+console.log(Math.round(6.66)) //round gives the rounds off value of a decimal
+console.log(Math.random()) //random is used when we create a game like dice game etc
+console.log(Math.floor(Math.random()*10)+1);// avoids 0 in the output value
+
+const max=10
+const min=20
+
+console.log(Math.floor(Math.random()*(max-min+1))+min)// retuns greater than min value and less than max value
+
