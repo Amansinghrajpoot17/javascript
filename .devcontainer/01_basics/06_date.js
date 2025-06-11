@@ -17,3 +17,8 @@
 //onsole.log(mytimestamp())
 
  console.log(Math.floor(Date.now()/1000))// gets the time in milliseconds
+
+let newdate= new Date()
+console.log(newdate.toLocaleTimeString("en-IN")) 
+
+console.log(newdate.toLocaleTimeString())
