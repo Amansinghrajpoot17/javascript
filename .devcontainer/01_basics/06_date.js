@@ -1,6 +1,6 @@
  let mydate= new Date()
 // console.log(mydate.toDateString()) // returns date
-// console.log(mydate.toISOString())
+ console.log(mydate.toISOString())
 // console.log(mydate.toLocaleDateString()) // returns current date in mm/dd/yy 
 // console.log(mydate.toLocaleString())
 // console.log(mydate.toTimeString())
@@ -19,6 +19,11 @@
  console.log(Math.floor(Date.now()/1000))// gets the time in milliseconds
 
 let newdate= new Date()
-console.log(newdate.toLocaleTimeString("en-IN")) 
+//console.log(newdate.toLocaleTimeString("en-IN")) 
 
-console.log(newdate.toLocaleTimeString())
+//console.log(newdate.getSeconds())
+// console.log(newdate.getUTCHours())
+// console.log(newdate.getFullYear())
+// console.log(newdate.getMonth())
+// console.log(newdate.getDay())
+console.log(newdate.toLocaleTimeString("(IST = ( H / 360 ) * R)"))
