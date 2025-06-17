@@ -1,7 +1,7 @@
 const myarr= [2,2,3,4,5,6,7]
-const array1= [4.8,9,7]
+const array1= [4,8,9,7]
 let index=2;
-console.log(array1.at(0))
+console.log(array1.at(-2))
 
 //myarr.push(myarr2)
 //console.log(myarr)
@@ -17,4 +17,8 @@ console.log(array1.at(0))
 let score1= 100;
 let score2= 200;
 let score3= 300;
-// console.log(Array.of(score1,score2,score3))// creates a new array from a set of elements
+const number= ["Aman","Wern","Qweerty","yung"]
+const number2=["Zcds","opiy","xdsa"]
+console.log(number2.indexOf("opiy"))// returns the index of elements
+// console.log(number.concat(number2))
+console.log(array(7))
