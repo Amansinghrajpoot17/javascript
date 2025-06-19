@@ -29,6 +29,7 @@ let user1 =  {
   name: "aman"
 }
 let user2=user1
+console.log(user2)
 user2.name="alpha"
 console.log(user2.name);
 console.log(user1.name);
