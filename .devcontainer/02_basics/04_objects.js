@@ -43,3 +43,9 @@ const course={
 }
 const {courseinstructor}=course// destructuring the objects
 console.log(courseinstructor)
+// {                                           //
+                                                   //JSON syntax
+//     "name": "aman",
+//     "coursename": "javascript",
+//     "price":"free"
+// }
