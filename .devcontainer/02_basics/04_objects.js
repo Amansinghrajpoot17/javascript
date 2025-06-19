@@ -27,11 +27,19 @@ const tinderuser={
 const fuser={
     ishuman:false,
     printintroduction(){
-        console.log('my name is ${this.name}. am i human? ${this.ishuman}');
+       // console.log('my name is ${this.name}. am i human? ${this.ishuman}');
     },
 };
 const bsuse= Object.create(fuser);
 bsuse.name="am";
 bsuse.ishuman=true;
 bsuse.printintroduction();
-console.log(bsuse)
+//console.log(bsuse)
+const course={
+    coursename:"javascript",
+    price:999,
+    courseinstructor:"Hitesh Choudary"
+
+}
+const {courseinstructor}=course// destructuring the objects
+console.log(courseinstructor)
