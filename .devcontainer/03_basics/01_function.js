@@ -13,10 +13,23 @@ return result
 const result= add(5,7)
 console.log("RESULT IS:",result)
 function userloginmessage (_username){
-    if(_username===undefined){
+    if(!_username){
        console.log("please enter username") 
         return
     }
     return `${_username} justloggedin`
 }
-console.log(userloginmessage())
+console.log(userloginmessage("Aman"))
+// rest operator can be used to pass multiple values on a single parameter
+function calculateprice(...num1){
+    return num1
+}
+console.log(calculateprice(2,3))
+const user={
+    username:"sams",
+    price:999
+}
+function handleobject(anyobject){
+    console.log(`usename is ${anyobject.username} and price is ${anyobject.price}`)
+}
+handleobject(user)
