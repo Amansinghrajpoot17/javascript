@@ -38,4 +38,4 @@ function handleobject (anyobject){
    console.log(`username is ${anyobject._username} and price is ${anyobject.price}`)
 
 }
-handleobject(user)
+handleobject(user);
