@@ -13,7 +13,9 @@ function add (number1, number2){
 }
 const result=add(3,4)
 //console.log("result:",result)
-function userloginmessage(username){
-    return '${username} just logged in'
+
+function userlogin (_username) {
+    
+    return '${_username} justloggedin'
 }
-console.log(userloginmessage());
+console.log(userlogin("aman"))
