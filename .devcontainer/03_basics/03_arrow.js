@@ -37,3 +37,4 @@ chai()
 const addtwo=(num1,num2) => ({username:"Aman"})
 console.log(addtwo(23,78))
 // object decalration through arrow function implictly
+
