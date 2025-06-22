@@ -32,7 +32,8 @@ chai()
 //}
 //console.log(addtwo(45,78))
 // implict return value
-const addtwo=(num1,num2) => num1+num2
-console.log(addtwo(23,78))
+//const addtwo=(num1,num2) => num1+num2
+//console.log(addtwo(23,78))
 const addtwo=(num1,num2) => ({username:"Aman"})
 console.log(addtwo(23,78))
+// object decalration through arrow function implictly
