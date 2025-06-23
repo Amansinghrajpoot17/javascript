@@ -23,3 +23,7 @@ if (Object.keys(userlog).length===0) {
     console.log("object is empty")
 }
 // to check empty object
+//ternary operator
+//condition ? true: false
+const iceteaprice= 75
+iceteaprice <=60 ? console.log("price less than 60"): console.log("price graeter than 60")
