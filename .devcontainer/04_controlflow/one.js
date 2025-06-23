@@ -37,3 +37,9 @@ const userloggedfromemail=false
 if(userloggedfromemail || userloggrdinfromgoggle ){
     console.log("user logged in successfully")
 }
+// nullish coalescing operator (??): null or undefined
+let val1;
+val1= 5??10
+console.log(val1)
+val1 = null ?? 10
+console.log(val1)
